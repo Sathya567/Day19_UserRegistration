@@ -13,6 +13,12 @@ namespace DAY_19_UserRegistration
             FirstName = Console.ReadLine();
 
             UserRegistration.CheckFirstName(FirstName);
+            string LastName;
+            Console.Write("Enter Last Name : ");
+            LastName = Console.ReadLine();
+            UserRegistration.CheckLastName(LastName);
+
+
             Console.ReadKey();
 
         }
