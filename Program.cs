@@ -28,6 +28,12 @@ namespace DAY_19_UserRegistration
             PhoneNumber = Console.ReadLine();
             UserRegistration.CheckNumber(PhoneNumber);
 
+            string Password;
+            Console.Write("Enter Password : ");
+            Password = Console.ReadLine();
+            UserRegistration.CheckPassword(Password);
+
+
 
 
             Console.ReadKey();
