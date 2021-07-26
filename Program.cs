@@ -18,6 +18,12 @@ namespace DAY_19_UserRegistration
             LastName = Console.ReadLine();
             UserRegistration.CheckLastName(LastName);
 
+            string EmailId;
+            Console.Write("Enter  Email Id  :");
+            EmailId = Console.ReadLine();
+            UserRegistration.CheckEmail(EmailId);
+
+
 
             Console.ReadKey();
 
